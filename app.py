@@ -30,9 +30,11 @@ def main():
             print(f"{choice}: command not found")
         print("")
 
+
 def show():
     for customer in Customer.select():
         print(f"Name: {customer.name} Age: {customer.age}")
+
 
 def add():
     name = input("New user name: ")
@@ -43,4 +45,4 @@ def add():
 
 
 if __name__ == "__main__":
-     main()
+    main()

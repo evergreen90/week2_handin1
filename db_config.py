@@ -19,6 +19,7 @@ logger.setLevel(logging.DEBUG)
 db = connect(os.environ.get("DATABASE"))  # 環境変数に合わせて変更する場合
 # db = connect(os.environ.get("DATABASE") or "sqlite:///csm_db.sqlite")  # 環境変数が無い場合にデフォルト値として値を設定することも可能
 
+
 # 顧客のモデル
 class Customer(Model):
     """Customer Model"""
