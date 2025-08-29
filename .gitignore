@@ -2,3 +2,34 @@
 .venv
 db.sqlite
 __pycache__/
+
+
+
+# 動作イメージ
+# ===== Welcome to CRM Application =====
+# [S]how: Show all users info
+# [A]dd: Add new user
+# [Q]uit: Quit The Application
+# ======================================
+# 
+# Your command > S
+# Name: Bob Age: 15
+# Name: Tom Age: 57
+# Name: Ken Age: 73
+# 
+# Your command > A
+# New user name > Kazuma
+# New user age > 35
+# Add new user: Kazuma
+# 
+# Your command > S
+# Name: Bob Age: 15
+# Name: Tom Age: 57
+# Name: Ken Age: 73
+# Name: Kazuma Age: 35
+# 
+# Your command > X
+# x: command not found
+# 
+# Your command > Q
+# Bye!
